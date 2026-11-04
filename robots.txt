@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://guide-swap.github.io/guide/sitemap.xml
