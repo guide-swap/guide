@@ -114,6 +114,18 @@ h3{font-size:19px;margin:28px 0 8px;font-weight:650}
 .steps b{display:block;font-size:18px;margin-bottom:2px}
 .steps span{color:#C2D0D8}
 
+/* video */
+.vcap{color:#C2D0D8;margin:0 0 20px}
+.video{position:relative;max-width:760px;aspect-ratio:16/9;border-radius:var(--radius-m);overflow:hidden;background:#000;border:1px solid var(--line)}
+.video .yt{all:unset;cursor:pointer;position:absolute;inset:0;display:block}
+.video .yt:focus-visible{outline:2px solid var(--amber);outline-offset:-4px}
+.video img{width:100%;height:100%;object-fit:cover;display:block;opacity:.88;transition:opacity .2s}
+.video .yt:hover img{opacity:1}
+.video .play{position:absolute;left:50%;top:50%;width:72px;height:72px;margin:-36px 0 0 -36px;border-radius:50%;background:var(--amber);box-shadow:0 10px 30px -8px rgba(0,0,0,.7)}
+.video .play:after{content:"";position:absolute;left:29px;top:22px;border-style:solid;border-width:14px 0 14px 22px;border-color:transparent transparent transparent var(--amber-ink)}
+.video iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.vlink{margin:10px 0 0;font-size:15px}
+
 /* faq */
 .faq{max-width:780px;border-top:1px solid var(--line)}
 .faq details{border-bottom:1px solid var(--line)}
